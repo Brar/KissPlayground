@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{45154E1B-86A7-4A9C-B97D-88A20DB6E756}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{240868D7-FDD7-4B09-AA9F-095A6D77BCC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthServer", "src\AuthServer\AuthServer.csproj", "{44C02E22-8C49-4295-A3E2-EAB660A4CCDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44C02E22-8C49-4295-A3E2-EAB660A4CCDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44C02E22-8C49-4295-A3E2-EAB660A4CCDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44C02E22-8C49-4295-A3E2-EAB660A4CCDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44C02E22-8C49-4295-A3E2-EAB660A4CCDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{44C02E22-8C49-4295-A3E2-EAB660A4CCDF} = {45154E1B-86A7-4A9C-B97D-88A20DB6E756}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B584C92-1C9C-4A61-8555-FF6290FF8354}
+	EndGlobalSection
+EndGlobal
