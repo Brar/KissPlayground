@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{240868D7-F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthServer", "src\AuthServer\AuthServer.csproj", "{44C02E22-8C49-4295-A3E2-EAB660A4CCDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apis", "Apis\Apis.csproj", "{2E9D8E7E-9E6A-4C20-A988-6E19BE05FD02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Apis", "src\Apis\Apis.csproj", "{2E9D8E7E-9E6A-4C20-A988-6E19BE05FD02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
