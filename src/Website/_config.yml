@@ -1,0 +1,17 @@
+# site settings
+title: KISS test page
+author: Brar Piening
+description: A page for testing possible KISS technology
+
+exclude:
+ - Makefile
+ - yarn.lock
+ - package.json
+ - node_modules
+
+# sass settings
+sass:
+    style: compressed
+    load_paths:
+        - _sass
+        - node_modules

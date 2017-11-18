@@ -218,3 +218,7 @@ _Pvt_Extensions
 
 # Temporary key
 tempkey.rsa
+
+# Generated files
+_site
+src/Website/assets/**/vendor
