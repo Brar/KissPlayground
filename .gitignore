@@ -220,5 +220,6 @@ _Pvt_Extensions
 tempkey.rsa
 
 # Generated files
-_site
+src/Website/_site
 src/Website/assets/**/vendor
+src/Website/.jekyll-metadata
