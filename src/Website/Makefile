@@ -23,7 +23,7 @@ update: $(PROJECT_DEPS)
 include-yarn-deps:
 	mkdir -p $(VENDOR_DIR)
 	cp node_modules/jquery/dist/jquery.slim.min.js $(VENDOR_DIR)
-	$(UGLIFY) $(VENDOR_DIR)dependencies.min.js -- node_modules/popper.js/dist/popper.js node_modules/bootstrap/dist/js/bootstrap.js node_modules/oidc-client/dist/oidc-client.js
+	$(UGLIFY) $(VENDOR_DIR)dependencies.min.js -- node_modules/popper.js/dist/umd/popper.js node_modules/bootstrap/dist/js/bootstrap.js node_modules/oidc-client/dist/oidc-client.js
 	$(UGLIFY) $(JS_DIR)app.min.js -- _js/app.js
 
 build: install include-yarn-deps
